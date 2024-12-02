@@ -14,10 +14,15 @@ This project demonstrates an attempt to block HTTP traffic from port 80, ensurin
 
 ## Screenshots
 ![fw-ss1](https://github.com/user-attachments/assets/3d38f28b-1dfc-4178-8852-583d620719b2)
+- Creating a custom rule
 
 ![fw-ss2](https://github.com/user-attachments/assets/1b801ea0-c273-4143-b092-963462e7174c)
+- Picked port 80 because this is where HTTP sites are commonly found.
+- The TCP protocol was selected becuase this is commonly used for communications between a device and a server
 
 ![fw-ss3](https://github.com/user-attachments/assets/d48208ab-ee69-43a2-88a0-89cd45aee934)
+- Here i picked "block the connection" such that any user is denied access to HTTP sites
+
 
 ![image](https://github.com/user-attachments/assets/79e7ecb1-4dd3-4551-844d-bf495659d875)
 
